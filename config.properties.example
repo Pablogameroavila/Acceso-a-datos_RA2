@@ -1,0 +1,9 @@
+# Copia este fichero en la raíz del proyecto con el nombre config.properties y edítalo.
+# config.properties NO se sube a Git (está incluido en .gitignore).
+
+# --- Configuración MariaDB (Gestión Académica 2º DAM) ---
+db.url=jdbc:mariadb://localhost:3306/dam2
+db.user=dam2_app
+db.password=CAMBIA_ESTA_CLAVE
+
+# También puedes dejar db.password vacío y definir la variable de entorno AD_DB_PASSWORD.

@@ -1,0 +1,7 @@
+Coloca aquí los drivers JDBC (.jar). Este repositorio no los incluye: descárgalos tú.
+
+  SQLite   -> sqlite-jdbc-3.53.4.0.jar          (org.xerial:sqlite-jdbc)
+  MariaDB  -> mariadb-java-client-3.5.10.jar    (org.mariadb.jdbc:mariadb-java-client)
+
+Dónde descargarlos y cómo vincularlos en IntelliJ: ver el manual (apartado 3).
+Si con SQLite te sale "NoClassDefFoundError: org/slf4j/...", descarga también slf4j-api (jar) y ponlo aquí.
